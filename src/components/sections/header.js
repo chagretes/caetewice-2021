@@ -8,7 +8,7 @@ import { Container } from "../global"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: { eq: "product" }, name: { eq: "green-skew" }) {
+      file(sourceInstanceName: { eq: "logos" }, name: { eq: "esl-parody" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -27,23 +27,17 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Campeonato de CSGO</Subtitle>
             <h1>
-              All your money,
-              <br />
-              one account
+              CAETÉWICE 2021
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+            Saiba tudo sobre o maior e melhor campeonato* de CSGO 
+            amador de Minas Gerais. Notícias, tabela, informações dos
+            times e muito mais.
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
-            </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              * Informações pendentes de confirmação
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
