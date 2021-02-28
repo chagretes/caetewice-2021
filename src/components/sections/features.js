@@ -4,46 +4,34 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="features">
+  <Section id="tabela">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <Subtitle>Tabela</Subtitle>
+      <SectionTitle>Caetéwice 2021</SectionTitle>
       <FeaturesGrid>
-        <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
-          <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
-          <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
-          <FeatureText>
-            Create smart automated workflows and triggers for your money.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
-          <FeatureText>
-            Easily link up to 5 banks to your finance account.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
-          <FeatureText>
-            High interest and rewards for hitting your goals.
-          </FeatureText>
-        </FeatureItem>
+        <p></p><p>Time</p>
+        <p>P</p><p>J</p><p>V</p><p>D</p>
+
+        <p>1</p><Time><img></img><p>Victor</p></Time>
+        <p>2</p><p>3</p><p>2</p><p>1</p>
+
+        <p>2</p><Time><img></img><p>Erick</p></Time>
+        <p>1</p><p>1</p><p>1</p><p>0</p>
+
+        <p>3</p><Time><img></img><p>Cobblestoners</p></Time>
+        <p>1</p><p>1</p><p>1</p><p>0</p>
+
+        <p>4</p><Time><img></img><p>Junin</p></Time>
+        <p>2</p><p>3</p><p>2</p><p>1</p>
+
+        <p>5</p><Time><img></img><p>Greg</p></Time>
+        <p>2</p><p>3</p><p>2</p><p>1</p>
+
+        <p>6</p><Time><img></img><p>Xandão</p></Time>
+        <p>2</p><p>3</p><p>2</p><p>1</p>
+
+        <p>7</p><Time><img></img><p>Zoi de Gato</p></Time>
+        <p>2</p><p>3</p><p>2</p><p>1</p>
       </FeaturesGrid>
     </StyledContainer>
   </Section>
@@ -72,30 +60,15 @@ const Subtitle = styled.h5`
 const FeaturesGrid = styled.div`
   max-width: 670px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30px auto 30px 30px 30px 30px;
   margin: 0px auto;
-  grid-column-gap: 40px;
-  grid-row-gap: 35px;
+  align-items: center;
   @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr;
     padding: 0 64px;
   }
 `
 
-const FeatureItem = styled.div`
+const Time = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-`
-
-const FeatureTitle = styled.h4`
-  color: ${props => props.theme.color.primary};
-  letter-spacing: 0px;
-  line-height: 30px;
-  margin-bottom: 10px;
-`
-
-const FeatureText = styled.p`
-  text-align: center;
 `
