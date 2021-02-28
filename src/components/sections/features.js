@@ -14,7 +14,7 @@ const Features = () => (
 
         <p>1</p><Time>
         <img src="https://static.gamersclub.com.br/players/avatar/357754/357754_medium.jpg" height="50px" width="auto"></img>
-        <p>Telão2K</p></Time>
+        <p>Sou Passivo</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
 
         <p>2</p><Time>
