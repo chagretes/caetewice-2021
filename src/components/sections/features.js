@@ -12,25 +12,39 @@ const Features = () => (
         <p></p><p>Time</p>
         <p>P</p><p>J</p><p>V</p><p>D</p>
 
-        <p>1</p><Time><img></img><p>Victor</p></Time>
+        <p>1</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/357754/357754_medium.jpg" height="50px" width="auto"></img>
+        <p>Telão2K</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
 
-        <p>2</p><Time><img></img><p>Erick</p></Time>
+        <p>2</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/1272690/1272690_medium.jpg" height="50px" width="auto"></img>
+        <p>Pantera Negra</p></Time>
         <p>1</p><p>1</p><p>1</p><p>0</p>
 
-        <p>3</p><Time><img></img><p>Cobblestoners</p></Time>
+        <p>3</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/734347/734347_medium.jpg" height="50px" width="auto"></img>
+        <p>Cobblestoners</p></Time>
         <p>1</p><p>1</p><p>1</p><p>0</p>
 
-        <p>4</p><Time><img></img><p>Junin</p></Time>
+        <p>4</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/1716405/1716405_medium.jpg" height="50px" width="auto"></img>
+        <p>passosGG</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
 
-        <p>5</p><Time><img></img><p>Greg</p></Time>
+        <p>5</p><Time>
+        <img src="https://static.gamersclub.com.br/teams/avatar/220767/220767.png" height="50px" width="auto"></img>
+        <p>Não tem Cobble</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
 
-        <p>6</p><Time><img></img><p>Xandão</p></Time>
+        <p>6</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/460948/460948_medium.jpg" height="50px" width="auto"></img>
+        <p>KOTN</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
 
-        <p>7</p><Time><img></img><p>Zoi de Gato</p></Time>
+        <p>7</p><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/773929/773929_medium.jpg" height="50px" width="auto"></img>
+        <p>Z0iDeGato</p></Time>
         <p>2</p><p>3</p><p>2</p><p>1</p>
       </FeaturesGrid>
     </StyledContainer>
@@ -71,4 +85,8 @@ const FeaturesGrid = styled.div`
 const Time = styled.div`
   display: flex;
   align-items: center;
+  
+  >img {
+    padding-right: 10px;
+  }
 `

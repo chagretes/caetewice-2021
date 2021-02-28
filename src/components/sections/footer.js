@@ -6,7 +6,7 @@ import { Container } from "../global"
 const Footer = () => (
   <FooterWrapper id="footer">
     <BrandContainer>
-      <h5>2021 - feito por </h5><a> chagretes</a>
+      <h5>2021 - feito por @</h5><a href="https://github.com/chagretes" target="blank">chagretes</a>
     </BrandContainer>
   </FooterWrapper>
 )
