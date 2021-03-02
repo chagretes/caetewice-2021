@@ -12,6 +12,11 @@ const Features = () => (
         <p></p><p>Time</p>
         <p>P</p><p>J</p><p>V</p><p>D</p>
 
+        <Number>1</Number><Time>
+        <img src="https://static.gamersclub.com.br/players/avatar/734347/734347_medium.jpg" height="50px" width="auto"></img>
+        <p>Cobblestoners</p></Time>
+        <p>1</p><p>1</p><p>1</p><p>0</p>
+
         <p>1</p><Time>
         <img src="https://static.gamersclub.com.br/players/avatar/357754/357754_medium.jpg" height="50px" width="auto"></img>
         <p>Telão2K</p></Time>
@@ -20,11 +25,6 @@ const Features = () => (
         <p>2</p><Time>
         <img src="https://static.gamersclub.com.br/players/avatar/1272690/1272690_medium.jpg" height="50px" width="auto"></img>
         <p>Pantera Negra</p></Time>
-        <p>1</p><p>1</p><p>1</p><p>0</p>
-
-        <p>3</p><Time>
-        <img src="https://static.gamersclub.com.br/players/avatar/734347/734347_medium.jpg" height="50px" width="auto"></img>
-        <p>Cobblestoners</p></Time>
         <p>1</p><p>1</p><p>1</p><p>0</p>
 
         <p>4</p><Time>
@@ -89,4 +89,9 @@ const Time = styled.div`
   >img {
     padding-right: 10px;
   }
+`
+
+const Number = styled.div`
+  color: green;
+  font-weight: 900;
 `
